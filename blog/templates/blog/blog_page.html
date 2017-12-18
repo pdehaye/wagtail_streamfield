@@ -1,0 +1,8 @@
+{% extends "blog/base.html" %}
+{% load static wagtailcore_tags wagtailimages_tags blogapp_tags %}
+
+{% block content %}
+
+{% include_block blog_page.stream_body %}
+
+{% endblock %}

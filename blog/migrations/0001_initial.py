@@ -16,11 +16,6 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-        ('taggit', '0002_auto_20150616_2121'),
-        ('wagtailcore', '0040_page_draft_title'),
-    ]
-
     operations = [
         migrations.CreateModel(
             name='BlogCategory',
